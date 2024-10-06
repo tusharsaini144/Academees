@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+}
+.templateContainer {
+  margin: 5% 0;
+  /* background-image: url("./../../../public/images/bg.webp"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+}
+.templateContainer > .searchInput_Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.templateContainer > .searchInput_Container input {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+.templateContainer .template_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.templateContainer .template_Container .template {
+  background-color: white;
+  margin: 30px;
+  padding: 0px 20px;
+}
+.templateContainer .template_Container .template img {
+  height: 250px;
+}
+
+.button button {
+  display: flex;
+  color: "#bbedd8";
+  padding: "5px 10px";
+  color: "#0e5c3a";
+  border-radius: "10px";
+  /* padding: 10px; */
+}
+.button {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  /* background-color: black; */
+}
+/* button {
+  margin-left: 100px;
+} */
+@media only screen and (max-width: 550px) {
+  .templateContainer > .searchInput_Container input {
+    width: 100%;
+  }
+  .button button {
+    display: flex;
+    width: 60%;
+  }
+}
